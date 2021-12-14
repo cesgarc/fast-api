@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "module": "uvicorn",
+            "args": ["main:app","--reload"]
+        }
+    ]
+}
